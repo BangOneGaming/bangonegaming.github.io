@@ -36,8 +36,14 @@ footer {
 }
 
 main {
-  margin: 0; /* Menghilangkan margin untuk memastikan konten utama terpusat */
+  display: flex; /* Menyusun konten di dalam elemen main */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Memastikan main menutupi seluruh lebar */
+  min-height: 100vh; /* Memastikan main memiliki tinggi minimum 100% dari viewport */
 }
+
 
 .center-image {
   display: block;
