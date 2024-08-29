@@ -6,6 +6,7 @@ body {
   background-size: cover; /* Membuat gambar menutupi seluruh halaman */
   background-position: center; /* Menempatkan gambar di tengah halaman */
   background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  min-height: 100vh; 
 }
 
 header, footer {
